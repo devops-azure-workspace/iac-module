@@ -12,6 +12,6 @@ variable "location" {
 
 variable "tags" {
   description = "A mapping of tags which should be assigned to the Resource Group"
-  type        = map()
+  type        = map(string)
   default     = {}
 }
